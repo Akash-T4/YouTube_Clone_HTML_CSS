@@ -1,7 +1,125 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      p {
+        font-family: Roboto, Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .youtube-clone-search-box {
+        display: block;
+      }
+
+      .youtube-clone-thumbnail-picture {
+        width: 300px;
+      }
+
+      .youtube-clone-video-channel-picture {
+        width: 40px;
+        border-radius: 20px;
+      }
+
+      .youtube-clone-video-preview-container {
+        width: 300px;
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: top;
+      }
+
+      .youtube-clone-video-channel-icon {
+        display: inline-block;
+        width: 40px;
+        vertical-align: top;
+      }
+
+      .youtube-clone-video-info {
+        display: inline-block;
+        width: 240px;
+        margin-left: 10px;
+      }
+
+      .youtube-clone-video-info-container {
+        margin-top: 8px;
+      }
+
+      .youtube-clone-video-title {
+        font-weight: 500;
+        line-height: 22px;
+        margin-bottom: 10px;
+      }
+
+      .youtube-clone-video-author {
+        color: rgb(96, 96, 96);
+        font-size: 14px;
+        margin-bottom: 6px;
+      }
+
+      .youtube-clone-video-stats {
+        color: rgb(96, 96, 96);
+        font-size: 14px;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <input class="youtube-clone-search-box" type="text" placeholder="Search" />
+    <div class="youtube-clone-video-preview-container">
+      <div>
+        <img
+          class="youtube-clone-thumbnail-picture"
+          src="channel-thumbnail/thumbnail-1.webp"
+        />
+      </div>
+      <div class="youtube-clone-video-info-container">
+        <div class="youtube-clone-video-channel-icon">
+          <img
+            class="youtube-clone-video-channel-picture"
+            src="channel-icon/channel-1.jpeg"
+          />
+        </div>
+        <div class="youtube-clone-video-info">
+          <p class="youtube-clone-video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+
+          <p class="youtube-clone-video-author">Marques Brownlee</p>
+
+          <p class="youtube-clone-video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="youtube-clone-video-preview-container">
+      <div>
+        <img
+          class="youtube-clone-thumbnail-picture"
+          src="channel-thumbnail/thumbnail-2.webp"
+        />
+      </div>
+      <div class="youtube-clone-video-info-container">
+        <div class="youtube-clone-video-channel-icon">
+          <img
+            class="youtube-clone-video-channel-picture"
+            src="channel-icon/channel-2.jpeg"
+          />
+        </div>
+        <div class="youtube-clone-video-info">
+          <p class="youtube-clone-video-title">Try Not To Laugh Challenge #9</p>
+
+          <p class="youtube-clone-video-author">Markiplier</p>
+
+          <p class="youtube-clone-video-stats">19M views &#183; 4 years ago</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
