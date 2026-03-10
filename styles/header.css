@@ -1,8 +1,16 @@
 .youtube-clone-header-section {
+  background-color: white;
   display: flex;
   flex-direction: row;
   height: 70px;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(199, 199, 199);
 }
 
 .youtube-clone-header-left-section {
