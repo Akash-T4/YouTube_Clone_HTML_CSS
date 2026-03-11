@@ -97,8 +97,25 @@
   height: 30px;
 }
 
+.youtube-clone-notifications-icon-container {
+  position: relative;
+}
+
 .youtube-clone-notifications-icon {
   height: 30px;
+}
+
+.youtube-clone-notifications-count {
+  position: absolute;
+  background-color: rgb(182, 21, 21);
+  color: white;
+  padding: 3px 7px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  top: -5px;
+  right: -5px;
 }
 
 .youtube-clone-profile-icon {
