@@ -1,8 +1,30 @@
-.youtube-clone-nav-bar-section{
+.youtube-clone-nav-bar-section {
   background-color: white;
   position: fixed;
-  top: 70px;
+  top: 60px;
   left: 0px;
   bottom: 0px;
-  width: 70px;
+  width: 84px;
+}
+
+.youtube-clone-nav-bar-container {
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.youtube-clone-nav-bar-container:hover {
+  background-color: rgb(239, 239, 239);
+}
+
+.youtube-clone-nav-bar-container img {
+  height: 25px;
+}
+
+.youtube-clone-nav-bar-container div {
+  font-size: 10px;
+  font-family: Roboto, Arial;
 }
