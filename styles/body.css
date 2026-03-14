@@ -32,6 +32,7 @@
 
 .youtube-clone-thumbnail-container {
   position: relative;
+  cursor: pointer;
 }
 
 .youtube-clone-video-time {
@@ -56,16 +57,61 @@
   border-radius: 20px;
 }
 
+.youtube-clone-video-channel-icon{
+  position: relative;
+  height: 40px;
+  cursor: pointer;
+}
+
+.youtube-clone-video-channel-subs-info {
+  position: absolute;
+  display: flex;
+  width: 200px;
+  padding: 15px;
+  background-color: rgb(247, 247, 247);
+  color: rgb(0, 0, 0);
+  opacity: 0;
+  bottom: -75px;
+  left: 50px;
+  border-radius: 5px;
+  pointer-events: none;
+  box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.15s;
+}
+
+.youtube-clone-video-channel-icon:hover
+.youtube-clone-video-channel-subs-info {
+  opacity: 1;
+}
+
+.youtube-clone-video-channel-subs-info img {
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.youtube-clone-video-channel-subs-info-author{
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.youtube-clone-video-channel-subs-info-sub-count{
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+}
+
 .youtube-clone-video-title {
   font-weight: 500;
   line-height: 22px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .youtube-clone-video-author {
   color: rgb(96, 96, 96);
   font-size: 14px;
   margin-bottom: 6px;
+  cursor: pointer;
 }
 
 .youtube-clone-video-stats {
