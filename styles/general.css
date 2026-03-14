@@ -11,3 +11,9 @@ body {
   background-color: rgb(245, 245, 245);
   font-family: Roboto, Arial;
 }
+
+@media (min-width:1400.1px) {
+  body{
+    margin-left: 86px;
+  }
+}
