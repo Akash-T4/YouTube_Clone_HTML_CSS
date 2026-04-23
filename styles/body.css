@@ -56,10 +56,9 @@
   border-radius: 20px;
 }
 
-.youtube-clone-video-channel-icon{
+.youtube-clone-video-channel-icon {
   position: relative;
   height: 40px;
-  cursor: pointer;
 }
 
 .youtube-clone-video-channel-subs-info {
@@ -89,12 +88,12 @@
   margin-right: 10px;
 }
 
-.youtube-clone-video-channel-subs-info-author{
+.youtube-clone-video-channel-subs-info-author {
   font-weight: 600;
   margin-bottom: 3px;
 }
 
-.youtube-clone-video-channel-subs-info-sub-count{
+.youtube-clone-video-channel-subs-info-sub-count {
   font-size: 14px;
   color: rgb(120, 120, 120);
 }
@@ -103,6 +102,17 @@
   font-weight: 500;
   line-height: 22px;
   margin-bottom: 10px;
+}
+
+p .youtube-clone-video-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.youtube-clone-video-author .youtube-clone-channel-link {
+  color: inherit;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -110,7 +120,6 @@
   color: rgb(96, 96, 96);
   font-size: 14px;
   margin-bottom: 6px;
-  cursor: pointer;
 }
 
 .youtube-clone-video-stats {
